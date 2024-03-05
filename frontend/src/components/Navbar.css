@@ -1,0 +1,44 @@
+/* Navbar.css */
+.navbar {
+    background-color: #E5C7BC;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.navbar h1 a {
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-weight: 600;
+}
+
+.navbar li {
+    margin-inline: 30px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+    color: #333; /* Slightly darker color on hover for better interaction */
+}
